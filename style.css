@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: 'Mukta', sans-serif;
+    font-family:  sans-serif;
+}
+
+h2{
+    display: inline-block;
 }
 
 .site-name{
@@ -29,7 +33,7 @@ body{
     width: 50%;
     background-color: white;
     margin: 30px 350px 5px;
-    border-bottom: 1px transparent;
+
 }
 
 .button{
@@ -42,7 +46,7 @@ body{
 }
 
 #task{
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 3px;
     background-color: #47ADF1;
     border-color: transparent;
@@ -56,5 +60,78 @@ body{
     background-color: white;
     color: #D5D9DD;
     border-style: solid;
+}
 
+#nav-container{
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: #F6F8F9;
+}
+
+
+#main-container{
+    padding-left: 50px;
+    height: 100%;
+}
+
+.triangle{
+font-size: 11px;
+display: inline-block;
+}
+
+.check{
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 10px;
+    border: 2px solid #5EC0A9;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.task{
+font-weight: 500;
+margin-top: 40px;
+
+}
+
+.to-do{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.editorial{
+    font-size: 0.6rem;
+    margin-left: 5px;
+    background-color: #45ABEA;
+    padding: 6px 20px;
+    border-radius: 11px;
+    color: white;
+    font-weight: 500;
+}
+
+#purple{
+    background-color: #9C72E4;
+}
+
+.cross{
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 10px;
+    border: 2px solid #EC584F;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+#green{
+    background-color: #64C0A9;
+}
+
+#orange{
+    background-color: #F29E33;
 }
